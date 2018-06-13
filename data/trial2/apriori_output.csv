@@ -1,0 +1,365 @@
+hallucinations auditory|agitation|0.71
+homelessness|agitation|0.87
+irritable mood|agitation|0.91
+sleeplessness|agitation|0.70
+suicidal|agitation|0.75
+weepiness|agitation|1.00
+worry|agitation|0.82
+angina pectoris|shortness of breath|0.89
+mental status changes|asthenia|0.78
+chest discomfort|shortness of breath|1.00
+chest tightness|shortness of breath|0.87
+chill|fever|0.70
+wheezing|cough|0.73
+drowsiness|sleepy|0.82
+sleepy|drowsiness|0.82
+dyspnea|shortness of breath|0.82
+dyspnea on exertion|shortness of breath|0.70
+erythema|swelling|1.00
+feeling hopeless|hallucinations auditory|0.73
+feeling hopeless|sleeplessness|0.73
+sleeplessness|feeling hopeless|0.80
+feeling hopeless|suicidal|0.73
+feeling suicidal|hallucinations auditory|0.75
+hallucinations visual|feeling suicidal|0.78
+hallucinations visual|hallucinations auditory|0.78
+homelessness|hallucinations auditory|0.87
+hallucinations auditory|irritable mood|0.71
+irritable mood|hallucinations auditory|0.91
+sleeplessness|hallucinations auditory|0.80
+hallucinations auditory|suicidal|0.79
+suicidal|hallucinations auditory|0.92
+weepiness|hallucinations auditory|1.00
+worry|hallucinations auditory|0.82
+hallucinations visual|suicidal|0.78
+homelessness|irritable mood|0.87
+homelessness|suicidal|0.87
+hyperkalemia|shortness of breath|0.78
+hypokinesia|shortness of breath|0.83
+irritable mood|sleeplessness|0.73
+sleeplessness|irritable mood|0.80
+irritable mood|suicidal|0.82
+suicidal|irritable mood|0.75
+weepiness|irritable mood|1.00
+irritable mood|worry|0.73
+worry|irritable mood|0.73
+jugular venous distention|orthopnea|1.00
+jugular venous distention|shortness of breath|1.00
+orthopnea|shortness of breath|0.93
+thicken|pain|0.71
+palpitation|pain chest|0.78
+pain chest|shortness of breath|0.75
+sweat|pain chest|0.91
+sweating increased|pain chest|0.91
+pleuritic pain|shortness of breath|0.70
+productive cough|shortness of breath|0.78
+rale|shortness of breath|0.72
+sweat|shortness of breath|0.91
+sweating increased|shortness of breath|0.91
+wheezing|shortness of breath|0.73
+sleeplessness|suicidal|0.70
+sleeplessness|weepiness|0.70
+weepiness|sleeplessness|1.00
+sleeplessness|worry|0.70
+sleepy|unresponsiveness|0.73
+worry|suicidal|0.73
+sweat|sweating increased|1.00
+sweating increased|sweat|1.00
+weepiness|worry|1.00
+blackout;agitation|hallucinations auditory|1.00
+hallucinations auditory;agitation|blackout|0.70
+blackout;hallucinations auditory|agitation|1.00
+blackout;agitation|irritable mood|1.00
+irritable mood;agitation|blackout|0.70
+blackout;irritable mood|agitation|1.00
+blackout;agitation|suicidal|1.00
+suicidal;agitation|blackout|0.78
+blackout;suicidal|agitation|1.00
+hallucinations auditory;agitation|irritable mood|0.90
+irritable mood;agitation|hallucinations auditory|0.90
+irritable mood;hallucinations auditory|agitation|0.90
+hallucinations auditory;agitation|sleeplessness|0.70
+sleeplessness;agitation|hallucinations auditory|1.00
+sleeplessness;hallucinations auditory|agitation|0.87
+hallucinations auditory;agitation|suicidal|0.80
+suicidal;agitation|hallucinations auditory|0.89
+suicidal;hallucinations auditory|agitation|0.73
+hallucinations auditory;agitation|weepiness|0.70
+weepiness;agitation|hallucinations auditory|1.00
+weepiness;hallucinations auditory|agitation|1.00
+hallucinations auditory;agitation|worry|0.80
+agitation;worry|hallucinations auditory|0.89
+hallucinations auditory;worry|agitation|0.89
+irritable mood;agitation|sleeplessness|0.70
+sleeplessness;agitation|irritable mood|1.00
+sleeplessness;irritable mood|agitation|0.87
+irritable mood;agitation|suicidal|0.80
+suicidal;agitation|irritable mood|0.89
+suicidal;irritable mood|agitation|0.89
+irritable mood;agitation|weepiness|0.70
+weepiness;agitation|irritable mood|1.00
+weepiness;irritable mood|agitation|1.00
+irritable mood;agitation|worry|0.80
+agitation;worry|irritable mood|0.89
+irritable mood;worry|agitation|1.00
+sleeplessness;agitation|weepiness|1.00
+weepiness;agitation|sleeplessness|1.00
+sleeplessness;weepiness|agitation|1.00
+sleeplessness;agitation|worry|1.00
+agitation;worry|sleeplessness|0.78
+sleeplessness;worry|agitation|1.00
+suicidal;agitation|worry|0.78
+agitation;worry|suicidal|0.78
+suicidal;worry|agitation|0.87
+weepiness;agitation|worry|1.00
+agitation;worry|weepiness|0.78
+weepiness;worry|agitation|1.00
+blackout;hallucinations auditory|irritable mood|1.00
+blackout;irritable mood|hallucinations auditory|1.00
+irritable mood;hallucinations auditory|blackout|0.70
+blackout;hallucinations auditory|suicidal|1.00
+blackout;suicidal|hallucinations auditory|1.00
+blackout;irritable mood|suicidal|1.00
+blackout;suicidal|irritable mood|1.00
+suicidal;irritable mood|blackout|0.78
+decreased body weight;lesion|mass of body structure|0.78
+mass of body structure;decreased body weight|lesion|0.78
+mass of body structure;lesion|decreased body weight|0.78
+diarrhea;pain abdominal|nausea|0.78
+vomiting;diarrhea|nausea|0.70
+orthopnea;dyspnea|shortness of breath|1.00
+pain chest;dyspnea|shortness of breath|1.00
+rale;dyspnea|shortness of breath|0.87
+feeling hopeless;hallucinations auditory|irritable mood|0.87
+feeling hopeless;irritable mood|hallucinations auditory|1.00
+irritable mood;hallucinations auditory|feeling hopeless|0.70
+feeling hopeless;hallucinations auditory|sleeplessness|0.87
+feeling hopeless;sleeplessness|hallucinations auditory|0.87
+sleeplessness;hallucinations auditory|feeling hopeless|0.87
+feeling hopeless;hallucinations auditory|suicidal|0.87
+feeling hopeless;suicidal|hallucinations auditory|0.87
+feeling hopeless;irritable mood|sleeplessness|1.00
+feeling hopeless;sleeplessness|irritable mood|0.87
+sleeplessness;irritable mood|feeling hopeless|0.87
+hallucinations auditory;feeling suicidal|suicidal|0.89
+suicidal;feeling suicidal|hallucinations auditory|1.00
+suicidal;hallucinations auditory|feeling suicidal|0.73
+hallucinations visual;hallucinations auditory|suicidal|1.00
+suicidal;hallucinations visual|hallucinations auditory|1.00
+homelessness;hallucinations auditory|irritable mood|1.00
+irritable mood;hallucinations auditory|homelessness|0.70
+homelessness;irritable mood|hallucinations auditory|1.00
+irritable mood;hallucinations auditory|sleeplessness|0.80
+sleeplessness;hallucinations auditory|irritable mood|1.00
+sleeplessness;irritable mood|hallucinations auditory|1.00
+irritable mood;hallucinations auditory|suicidal|0.90
+suicidal;hallucinations auditory|irritable mood|0.82
+suicidal;irritable mood|hallucinations auditory|1.00
+irritable mood;hallucinations auditory|weepiness|0.70
+weepiness;hallucinations auditory|irritable mood|1.00
+weepiness;irritable mood|hallucinations auditory|1.00
+irritable mood;hallucinations auditory|worry|0.80
+hallucinations auditory;worry|irritable mood|0.89
+irritable mood;worry|hallucinations auditory|1.00
+sleeplessness;hallucinations auditory|suicidal|0.87
+suicidal;sleeplessness|hallucinations auditory|1.00
+sleeplessness;hallucinations auditory|weepiness|0.87
+weepiness;hallucinations auditory|sleeplessness|1.00
+sleeplessness;weepiness|hallucinations auditory|1.00
+sleeplessness;hallucinations auditory|worry|0.87
+hallucinations auditory;worry|sleeplessness|0.78
+sleeplessness;worry|hallucinations auditory|1.00
+suicidal;hallucinations auditory|worry|0.73
+hallucinations auditory;worry|suicidal|0.89
+suicidal;worry|hallucinations auditory|1.00
+weepiness;hallucinations auditory|worry|1.00
+hallucinations auditory;worry|weepiness|0.78
+weepiness;worry|hallucinations auditory|1.00
+sleeplessness;irritable mood|suicidal|0.87
+suicidal;irritable mood|sleeplessness|0.78
+suicidal;sleeplessness|irritable mood|1.00
+sleeplessness;irritable mood|weepiness|0.87
+weepiness;irritable mood|sleeplessness|1.00
+sleeplessness;weepiness|irritable mood|1.00
+sleeplessness;irritable mood|worry|0.87
+irritable mood;worry|sleeplessness|0.87
+sleeplessness;worry|irritable mood|1.00
+suicidal;irritable mood|worry|0.78
+irritable mood;worry|suicidal|0.87
+suicidal;worry|irritable mood|0.87
+weepiness;irritable mood|worry|1.00
+irritable mood;worry|weepiness|0.87
+weepiness;worry|irritable mood|1.00
+orthopnea;jugular venous distention|shortness of breath|1.00
+shortness of breath;jugular venous distention|orthopnea|1.00
+nausea;pain|pain abdominal|0.82
+sore to touch;nausea|pain abdominal|0.87
+sore to touch;pain abdominal|nausea|0.78
+vomiting;nausea|pain abdominal|0.71
+vomiting;pain abdominal|nausea|0.77
+orthopnea;rale|shortness of breath|1.00
+thicken;pain|pain abdominal|0.70
+pain abdominal;thicken|pain|0.78
+pain chest;sweat|shortness of breath|0.90
+shortness of breath;sweat|pain chest|0.90
+pain chest;sweating increased|shortness of breath|0.90
+shortness of breath;sweating increased|pain chest|0.90
+pain chest;sweat|sweating increased|1.00
+pain chest;sweating increased|sweat|1.00
+sweating increased;sweat|pain chest|0.91
+shortness of breath;sweat|sweating increased|1.00
+shortness of breath;sweating increased|sweat|1.00
+sweating increased;sweat|shortness of breath|0.91
+sleeplessness;weepiness|worry|1.00
+sleeplessness;worry|weepiness|1.00
+weepiness;worry|sleeplessness|1.00
+blackout;hallucinations auditory;agitation|irritable mood|1.00
+blackout;irritable mood;agitation|hallucinations auditory|1.00
+irritable mood;hallucinations auditory;agitation|blackout|0.78
+blackout;irritable mood;hallucinations auditory|agitation|1.00
+blackout;hallucinations auditory;agitation|suicidal|1.00
+blackout;suicidal;agitation|hallucinations auditory|1.00
+suicidal;hallucinations auditory;agitation|blackout|0.87
+blackout;suicidal;hallucinations auditory|agitation|1.00
+blackout;irritable mood;agitation|suicidal|1.00
+blackout;suicidal;agitation|irritable mood|1.00
+suicidal;irritable mood;agitation|blackout|0.87
+blackout;suicidal;irritable mood|agitation|1.00
+irritable mood;hallucinations auditory;agitation|sleeplessness|0.78
+sleeplessness;hallucinations auditory;agitation|irritable mood|1.00
+sleeplessness;irritable mood;agitation|hallucinations auditory|1.00
+sleeplessness;irritable mood;hallucinations auditory|agitation|0.87
+irritable mood;hallucinations auditory;agitation|suicidal|0.89
+suicidal;hallucinations auditory;agitation|irritable mood|1.00
+suicidal;irritable mood;agitation|hallucinations auditory|1.00
+suicidal;irritable mood;hallucinations auditory|agitation|0.89
+irritable mood;hallucinations auditory;agitation|weepiness|0.78
+weepiness;hallucinations auditory;agitation|irritable mood|1.00
+weepiness;irritable mood;agitation|hallucinations auditory|1.00
+weepiness;irritable mood;hallucinations auditory|agitation|1.00
+irritable mood;hallucinations auditory;agitation|worry|0.89
+hallucinations auditory;agitation;worry|irritable mood|1.00
+irritable mood;agitation;worry|hallucinations auditory|1.00
+irritable mood;hallucinations auditory;worry|agitation|1.00
+sleeplessness;hallucinations auditory;agitation|weepiness|1.00
+weepiness;hallucinations auditory;agitation|sleeplessness|1.00
+sleeplessness;weepiness;agitation|hallucinations auditory|1.00
+weepiness;sleeplessness;hallucinations auditory|agitation|1.00
+sleeplessness;hallucinations auditory;agitation|worry|1.00
+hallucinations auditory;agitation;worry|sleeplessness|0.87
+sleeplessness;agitation;worry|hallucinations auditory|1.00
+sleeplessness;hallucinations auditory;worry|agitation|1.00
+suicidal;hallucinations auditory;agitation|worry|0.87
+hallucinations auditory;agitation;worry|suicidal|0.87
+suicidal;agitation;worry|hallucinations auditory|1.00
+suicidal;hallucinations auditory;worry|agitation|0.87
+weepiness;hallucinations auditory;agitation|worry|1.00
+hallucinations auditory;agitation;worry|weepiness|0.87
+weepiness;agitation;worry|hallucinations auditory|1.00
+weepiness;hallucinations auditory;worry|agitation|1.00
+sleeplessness;irritable mood;agitation|weepiness|1.00
+weepiness;irritable mood;agitation|sleeplessness|1.00
+sleeplessness;weepiness;agitation|irritable mood|1.00
+weepiness;sleeplessness;irritable mood|agitation|1.00
+sleeplessness;irritable mood;agitation|worry|1.00
+irritable mood;agitation;worry|sleeplessness|0.87
+sleeplessness;agitation;worry|irritable mood|1.00
+sleeplessness;irritable mood;worry|agitation|1.00
+suicidal;irritable mood;agitation|worry|0.87
+irritable mood;agitation;worry|suicidal|0.87
+suicidal;agitation;worry|irritable mood|1.00
+suicidal;irritable mood;worry|agitation|1.00
+weepiness;irritable mood;agitation|worry|1.00
+irritable mood;agitation;worry|weepiness|0.87
+weepiness;agitation;worry|irritable mood|1.00
+weepiness;irritable mood;worry|agitation|1.00
+sleeplessness;weepiness;agitation|worry|1.00
+sleeplessness;agitation;worry|weepiness|1.00
+weepiness;agitation;worry|sleeplessness|1.00
+sleeplessness;weepiness;worry|agitation|1.00
+blackout;irritable mood;hallucinations auditory|suicidal|1.00
+blackout;suicidal;hallucinations auditory|irritable mood|1.00
+blackout;suicidal;irritable mood|hallucinations auditory|1.00
+suicidal;irritable mood;hallucinations auditory|blackout|0.78
+feeling hopeless;irritable mood;hallucinations auditory|sleeplessness|1.00
+feeling hopeless;sleeplessness;hallucinations auditory|irritable mood|1.00
+feeling hopeless;sleeplessness;irritable mood|hallucinations auditory|1.00
+sleeplessness;irritable mood;hallucinations auditory|feeling hopeless|0.87
+sleeplessness;irritable mood;hallucinations auditory|suicidal|0.87
+suicidal;irritable mood;hallucinations auditory|sleeplessness|0.78
+suicidal;sleeplessness;hallucinations auditory|irritable mood|1.00
+suicidal;sleeplessness;irritable mood|hallucinations auditory|1.00
+sleeplessness;irritable mood;hallucinations auditory|weepiness|0.87
+weepiness;irritable mood;hallucinations auditory|sleeplessness|1.00
+weepiness;sleeplessness;hallucinations auditory|irritable mood|1.00
+weepiness;sleeplessness;irritable mood|hallucinations auditory|1.00
+sleeplessness;irritable mood;hallucinations auditory|worry|0.87
+irritable mood;hallucinations auditory;worry|sleeplessness|0.87
+sleeplessness;hallucinations auditory;worry|irritable mood|1.00
+sleeplessness;irritable mood;worry|hallucinations auditory|1.00
+suicidal;irritable mood;hallucinations auditory|worry|0.78
+irritable mood;hallucinations auditory;worry|suicidal|0.87
+suicidal;hallucinations auditory;worry|irritable mood|0.87
+suicidal;irritable mood;worry|hallucinations auditory|1.00
+weepiness;irritable mood;hallucinations auditory|worry|1.00
+irritable mood;hallucinations auditory;worry|weepiness|0.87
+weepiness;hallucinations auditory;worry|irritable mood|1.00
+weepiness;irritable mood;worry|hallucinations auditory|1.00
+weepiness;sleeplessness;hallucinations auditory|worry|1.00
+sleeplessness;hallucinations auditory;worry|weepiness|1.00
+weepiness;hallucinations auditory;worry|sleeplessness|1.00
+sleeplessness;weepiness;worry|hallucinations auditory|1.00
+weepiness;sleeplessness;irritable mood|worry|1.00
+sleeplessness;irritable mood;worry|weepiness|1.00
+weepiness;irritable mood;worry|sleeplessness|1.00
+sleeplessness;weepiness;worry|irritable mood|1.00
+shortness of breath;pain chest;sweat|sweating increased|1.00
+shortness of breath;pain chest;sweating increased|sweat|1.00
+pain chest;sweating increased;sweat|shortness of breath|0.90
+shortness of breath;sweating increased;sweat|pain chest|0.90
+blackout;irritable mood;hallucinations auditory;agitation|suicidal|1.00
+blackout;suicidal;hallucinations auditory;agitation|irritable mood|1.00
+blackout;suicidal;irritable mood;agitation|hallucinations auditory|1.00
+suicidal;irritable mood;hallucinations auditory;agitation|blackout|0.87
+blackout;irritable mood;hallucinations auditory;suicidal|agitation|1.00
+sleeplessness;irritable mood;hallucinations auditory;agitation|weepiness|1.00
+weepiness;irritable mood;hallucinations auditory;agitation|sleeplessness|1.00
+weepiness;sleeplessness;hallucinations auditory;agitation|irritable mood|1.00
+weepiness;sleeplessness;irritable mood;agitation|hallucinations auditory|1.00
+sleeplessness;weepiness;irritable mood;hallucinations auditory|agitation|1.00
+sleeplessness;irritable mood;hallucinations auditory;agitation|worry|1.00
+irritable mood;hallucinations auditory;agitation;worry|sleeplessness|0.87
+sleeplessness;hallucinations auditory;agitation;worry|irritable mood|1.00
+sleeplessness;irritable mood;agitation;worry|hallucinations auditory|1.00
+sleeplessness;irritable mood;hallucinations auditory;worry|agitation|1.00
+suicidal;irritable mood;hallucinations auditory;agitation|worry|0.87
+irritable mood;hallucinations auditory;agitation;worry|suicidal|0.87
+suicidal;hallucinations auditory;agitation;worry|irritable mood|1.00
+suicidal;irritable mood;agitation;worry|hallucinations auditory|1.00
+suicidal;irritable mood;hallucinations auditory;worry|agitation|1.00
+weepiness;irritable mood;hallucinations auditory;agitation|worry|1.00
+irritable mood;hallucinations auditory;agitation;worry|weepiness|0.87
+weepiness;hallucinations auditory;agitation;worry|irritable mood|1.00
+weepiness;irritable mood;agitation;worry|hallucinations auditory|1.00
+weepiness;irritable mood;hallucinations auditory;worry|agitation|1.00
+weepiness;sleeplessness;hallucinations auditory;agitation|worry|1.00
+sleeplessness;hallucinations auditory;agitation;worry|weepiness|1.00
+weepiness;hallucinations auditory;agitation;worry|sleeplessness|1.00
+sleeplessness;weepiness;agitation;worry|hallucinations auditory|1.00
+weepiness;sleeplessness;hallucinations auditory;worry|agitation|1.00
+weepiness;sleeplessness;irritable mood;agitation|worry|1.00
+sleeplessness;irritable mood;agitation;worry|weepiness|1.00
+weepiness;irritable mood;agitation;worry|sleeplessness|1.00
+sleeplessness;weepiness;agitation;worry|irritable mood|1.00
+weepiness;sleeplessness;irritable mood;worry|agitation|1.00
+sleeplessness;weepiness;irritable mood;hallucinations auditory|worry|1.00
+sleeplessness;irritable mood;hallucinations auditory;worry|weepiness|1.00
+weepiness;irritable mood;hallucinations auditory;worry|sleeplessness|1.00
+weepiness;sleeplessness;hallucinations auditory;worry|irritable mood|1.00
+weepiness;sleeplessness;irritable mood;worry|hallucinations auditory|1.00
+sleeplessness;weepiness;irritable mood;hallucinations auditory;agitation|worry|1.00
+sleeplessness;irritable mood;hallucinations auditory;agitation;worry|weepiness|1.00
+weepiness;irritable mood;hallucinations auditory;agitation;worry|sleeplessness|1.00
+weepiness;sleeplessness;hallucinations auditory;agitation;worry|irritable mood|1.00
+weepiness;sleeplessness;irritable mood;agitation;worry|hallucinations auditory|1.00
+sleeplessness;weepiness;irritable mood;hallucinations auditory;worry|agitation|1.00

@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sanjana/.nvm/versions/node/v7.0.0/bin/node',
+1 verbose cli   '/Users/sanjana/.nvm/versions/node/v7.0.0/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle drtw@0.1.0~prestart: drtw@0.1.0
+6 silly lifecycle drtw@0.1.0~prestart: no script for prestart, continuing
+7 info lifecycle drtw@0.1.0~start: drtw@0.1.0
+8 verbose lifecycle drtw@0.1.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle drtw@0.1.0~start: PATH: /Users/sanjana/.nvm/versions/node/v7.0.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/sanjana/ML Hackathon/mlhack-18-anjana/DrTw/ui/src/node_modules/.bin:/Users/sanjana/.nvm/versions/node/v7.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home//bin:/Users/sanjana/apache-geode-1.5.0/bin:/Users/sanjana/.fzf/bin
+10 verbose lifecycle drtw@0.1.0~start: CWD: /Users/sanjana/ML Hackathon/mlhack-18-anjana/DrTw/ui/src
+11 silly lifecycle drtw@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
+12 info lifecycle drtw@0.1.0~start: Failed to exec start script
+13 verbose stack Error: drtw@0.1.0 start: `react-scripts start`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/Users/sanjana/.nvm/versions/node/v7.0.0/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:191:7)
+13 verbose stack     at maybeClose (internal/child_process.js:877:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose pkgid drtw@0.1.0
+15 verbose cwd /Users/sanjana/ML Hackathon/mlhack-18-anjana/DrTw/ui/src
+16 error Darwin 17.6.0
+17 error argv "/Users/sanjana/.nvm/versions/node/v7.0.0/bin/node" "/Users/sanjana/.nvm/versions/node/v7.0.0/lib/node_modules/npm/bin/npm-cli.js" "start"
+18 error node v7.0.0
+19 error npm  v3.10.8
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error drtw@0.1.0 start: `react-scripts start`
+24 error spawn ENOENT
+25 error Failed at the drtw@0.1.0 start script 'react-scripts start'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the drtw package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     react-scripts start
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs drtw
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls drtw
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]

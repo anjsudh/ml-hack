@@ -1,0 +1,9 @@
+model,correct predictions,total predictions,accuracy,execution time
+multinomial_naive_bayes,726,794,0.91,0.07
+bernouli_naive_bayes,710,794,0.89,0.05
+gaussian_naive_bayes,715,794,0.90,0.40
+svm,690,794,0.87,4.89
+linear_svm,692,794,0.87,0.54
+random_forest,692,794,0.87,0.10
+voting,686,794,0.86,0.36
+decision_tree,643,794,0.81,0.05

@@ -1,0 +1,108 @@
+.App-logo {
+  height: 140px;
+}
+
+.App-header {
+  background-color: #2114ce1a;
+  height: 150px;
+  padding: 20px;
+  color: black;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 2em;
+  display: inline-block;
+  padding-top: 40px;
+  vertical-align: top;
+}
+
+.left-side{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middle-area{
+  width: 38%;
+  display: inline-block;
+  border-right: 1px;
+  border-right-color: #3fb56926;
+  border-right-style: solid;
+  border-left: 1px;
+  border-left-color: #3fb56926;
+  border-left-style: solid;
+  vertical-align: top;
+  height: -webkit-fill-available;
+}
+
+.right-side{
+  width: 30%;
+  display: inline-block;
+}
+
+.header {
+  font-weight: bold;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+.li{
+  list-style-type: none;
+  margin: 5px;
+  background-color: #f3f3f378;
+  padding: 10px;
+  margin-right: 40px;
+  border-radius: 4px;
+}
+
+.li:hover {
+  background-color: #f3f3f3;
+}
+
+.negative-symptom-li{
+  background-color: aliceblue;
+}
+
+.negative-symptom-li:hover{
+  background-color:#dff0ff;
+}
+
+.positive-symptom-li{
+  background-color: #90ee9059;
+}
+
+.positive-symptom-li:hover{
+  background-color: #90ee907a;
+}
+
+.disease-li:hover{
+  background-color: #fac187;
+}
+
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+.confirm-botton {
+  background-color: #0000ffcc;
+  color: #f5f0f0;
+  padding: 7px 15px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  border-radius: 8px;
+  margin-right: 8%;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}

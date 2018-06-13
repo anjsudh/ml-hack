@@ -1,0 +1,36 @@
+.multi-toggle {
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+    float: right;
+
+}
+
+.multi-toggle .toggle-li {
+    display: inline-block;
+    vertical-align: middle;
+    background: white;
+    color: #304258;
+    border-left: 1px solid #A3B5C2;
+    border-top: 1px solid #A3B5C2;
+    border-bottom: 1px solid #A3B5C2;
+    min-width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.multi-toggle .toggle-li.selected {
+     background: #3a47ffcc;
+     color: white;
+ }
+
+
+.multi-toggle .toggle-li:first-child {
+     border-radius: 5px 0px 0px 5px;
+ }
+
+
+.multi-toggle .toggle-li:last-child {
+     border-radius: 0px 5px 5px 0px;
+     border-right: 1px solid #A3B5C2;
+}
